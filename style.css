@@ -136,3 +136,16 @@ nav ul li ul li a:hover{
     filter: grayscale(0);
     transform: scale(1.1);
 }
+.repl img{
+    position: relative;
+    bottom: 115px;
+    left: 1085px;
+    
+    filter: grayscale(100%);
+    transition: 1s;
+    
+}
+.repl img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1)
+}

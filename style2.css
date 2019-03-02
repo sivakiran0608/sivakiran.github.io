@@ -82,7 +82,7 @@ nav ul li ul li a:hover{
 }
 
 
-.gallery img{
+.launch img{
     position: relative;
     top:10px;
     left: 930px;
@@ -90,20 +90,20 @@ nav ul li ul li a:hover{
     filter:grayscale(100%);
     transition: 1s;
 }
-.gallery img:hover {
+.launch img:hover {
     filter: grayscale(0);
     transform: scale(1.1);
 }
 
 
-.gallery1 img{
+.codenvy img{
    position: absolute;
     bottom: 40px;
     left: 15px;
     filter:grayscale(100%);
     transition: 1s;
 }
-.gallery1 img:hover {
+.codenvy img:hover {
     filter: grayscale(0);
     transform: scale(1.1);
 }
@@ -123,7 +123,7 @@ nav ul li ul li a:hover{
     filter: grayscale(0);
     transform: scale(1.1);
 }
-.code img{
+.codehs img{
     padding: 14px 5px;
     position: absolute;
     bottom: 10px;
@@ -132,7 +132,7 @@ nav ul li ul li a:hover{
     filter:grayscale(100%);
     transition: 1s;
 }
-.code img:hover {
+.codehs img:hover {
    
     filter: grayscale(0);
     transform: scale(1.1);
@@ -148,4 +148,17 @@ nav ul li ul li a:hover{
 .git img:hover {
     filter: grayscale(0);
     transform: scale(1.1);
+}
+.repl img{
+    position: relative;
+    bottom: 115px;
+    left: 1085px;
+    
+    filter: grayscale(100%);
+    transition: 1s;
+    
+}
+.repl img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1)
 }
