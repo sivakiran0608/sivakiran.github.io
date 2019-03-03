@@ -19,7 +19,7 @@ nav{
 
 nav ul{
     margin-bottom: 50px; 
-  float:left;    
+     float:left;    
     position: relative;
     top: -10px;
     left: 550px;
@@ -74,7 +74,7 @@ nav ul li ul li a:hover{
 .gallery img{
     position: relative;
     top:10px;
-    left: 930px;
+    left: 910px;
     
     filter:grayscale(100%);
     transition: 1s;
@@ -126,7 +126,7 @@ nav ul li ul li a:hover{
 }
 .git img{
     position: relative;
-    top: 30px;
+    top: 10px;
     left: 15px;
     
     filter:grayscale(100%);
